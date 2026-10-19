@@ -8,10 +8,11 @@ foreach ($notes as $cle => $valeur) {
     echo "Etudiant : $cle, Note : $valeur<br>";
 }
 // Question 2 : Calculer et afficher la moyenne de la classe avec array_sum
-$somme = array_sum($notes);
-$nombreEtudiants = count($notes);
-$moyenne = $somme / $nombreEtudiants;
-echo "La moyenne des notes est : $moyenne<br>";
+function moyenne($notes) {
+    $somme = array_sum($notes);
+    $nbNotes = count($notes);
+    return $somme / $nbNotes;
+}
 
 // Question 3 :  Obtenir les étudiants admis (note ≥ 10) avec array_filter
 
