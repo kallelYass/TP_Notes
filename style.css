@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    line-height: 1.6;
+    white-space: pre-wrap; /* garde la mise en forme des print_r */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+html {
+    background: #f4f6f9;
+}
